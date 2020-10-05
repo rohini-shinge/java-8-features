@@ -2,13 +2,16 @@
 package com.udemy.practice;
 
 @FunctionalInterface
-interface TestInterface2 {
+interface TestInterface2
+{
 	public void printHello();
 }
 
-public class WithFunctionalInterface1 {
+public class WithFunctionalInterface
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		TestInterface2 testInterface2 = () -> System.out.println("Hello Java 8!");
 		testInterface2.printHello();
 	}
