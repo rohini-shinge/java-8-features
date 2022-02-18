@@ -30,7 +30,5 @@ public class AnonymousInnerClassDemo {
 
 		AnonymousInnerClassDemo classDemo = new AnonymousInnerClassDemo();
 		classDemo.m2();
-
 	}
-
 }
